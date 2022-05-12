@@ -1,0 +1,20 @@
+{
+  "name": "zk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ton-foundation/zk.git",
+  "author": "Steve Korshakov <steve@korshakov.com>",
+  "license": "MIT",
+  "scripts": {
+    "ceremony": "./ceremony_test.sh",
+    "verify": "./verify.sh"
+  },
+  "dependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^17.0.32",
+    "circom-helper": "^0.3.3",
+    "jest": "^28.1.0",
+    "snarkjs": "^0.4.16",
+    "typescript": "^4.6.4"
+  }
+}
